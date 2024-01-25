@@ -92,7 +92,7 @@ a {
 .header-navigation {
     display: flex;
     align-items: center;
-    gap: 72px;
+   
 }
 
 .header-logo {
@@ -103,7 +103,7 @@ a {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    
+    margin-right: 76px;
 }
 
 .header-logo-inside {
@@ -168,7 +168,9 @@ a {
 }
 
 .hero-container {
-    padding: 188px 316px;
+    padding-top: 188px;
+   padding-bottom: 188px;
+    
 }
 
 .hero-title {
@@ -178,8 +180,10 @@ a {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-
+    max-width: 496px;
     margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-btn {
@@ -218,7 +222,7 @@ a {
 }
 
 .quality-subtitel {
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 /*=================================== */
@@ -269,12 +273,13 @@ a {
 
 .portfolio-item {
     flex-basis: calc((100% - 72px) / 4);
-    border-top: none;
+    
 }
 
 .portfolio-cart-btm {
     border: 1px solid #E7E9FC;
     padding: 32px 16px;
+    border-top: none;
 }
 
 .portfolio-subtitel {
@@ -287,7 +292,7 @@ a {
 
 .footer {
     background-color: #2E2F42;
-    padding-top: 102px;
+    padding-top: 100px;
     padding-bottom: 100px;
 }
 
